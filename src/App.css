@@ -97,18 +97,22 @@
   
   .coin-price {
     width: 110px;
+    text-align: center;
   }
   
   .coin-volume {
     width: 155px;
+    text-align: center;
   }
   
   .coin-marketcap {
     width: 230px;
+    text-align: center;
   }
   
   .coin-percent {
     width: 100px;
+    text-align: center;
   }
   
   .red {
@@ -118,24 +122,4 @@
   .green {
     color: #08fa08;
   }
-  @media only screen and (max-width: 770px) {
-    .coin-app{
-        display: flex;
-        justify-content: space-between;
-    }
-    .coin-search,.coin-text,.coin-search,.coin-form{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-    } 
-    .coin-container{
-      height:100%;
-      width:100%;
-    }
-    .coin-row{
-      height: 50%;
-      width: 50%;
-    }
-
-}
+  
