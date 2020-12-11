@@ -26,11 +26,11 @@ const App = () => {
   return (
     <div className="coin-app">
       <div className="coin-search">
-        <h1 className="coin-text">Search a Currency</h1>
-        <form>
+        <h1 className="coin-text">Pesquise uma Moeda</h1>
+        <form className="coin-form">
           <input
             type="text"
-            placeholder="Search..."
+            placeholder="Pesquise..."
             className="coin-input"
             onChange={handleChange}
           />
